@@ -641,6 +641,10 @@
                                         <exclude>log4j.properties</exclude>
                                         <exclude>bin.tgz</exclude>
                                         <exclude>webapps/**</exclude>
+                                        <exclude>core-default.xml</exclude>
+                                        <exclude>hdfs-default.xml</exclude>
+                                        <exclude>mapred-default.xml</exclude>
+                                        <exclude>hadoop-metrics.properties</exclude>
                                     </excludes>
                                 </filter>
                             </filters>
