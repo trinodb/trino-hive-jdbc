@@ -10,7 +10,7 @@
 
     <groupId>io.trino.hive</groupId>
     <artifactId>hive-apache-jdbc</artifactId>
-    <version>0.13.1-9</version>
+    <version>0.13.1-10-SNAPSHOT</version>
 
     <name>hive-apache-jdbc</name>
     <description>Shaded version of Apache Hive JDBC driver for Trino</description>
@@ -34,7 +34,7 @@
         <connection>scm:git:git://github.com/trinodb/trino-hive-jdbc.git</connection>
         <developerConnection>scm:git:git://github.com/trinodb/trino-hive-jdbc.git</developerConnection>
         <url>https://github.com/trinodb/trino-hive-jdbc</url>
-        <tag>0.13.1-9</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
