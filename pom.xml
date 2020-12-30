@@ -8,13 +8,13 @@
         <version>7</version>
     </parent>
 
-    <groupId>io.prestosql.hive</groupId>
+    <groupId>io.trino.hive</groupId>
     <artifactId>hive-apache-jdbc</artifactId>
     <version>0.13.1-9-SNAPSHOT</version>
 
     <name>hive-apache-jdbc</name>
-    <description>Shaded version of Apache Hive JDBC driver for Presto</description>
-    <url>https://github.com/prestosql/presto-hive-jdbc</url>
+    <description>Shaded version of Apache Hive JDBC driver for Trino</description>
+    <url>https://github.com/trinodb/trino-hive-jdbc</url>
 
     <inceptionYear>2015</inceptionYear>
 
@@ -31,16 +31,16 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/prestosql/presto-hive-jdbc.git</connection>
-        <developerConnection>scm:git:git://github.com/prestosql/presto-hive-jdbc.git</developerConnection>
-        <url>https://github.com/prestosql/presto-hive-jdbc</url>
+        <connection>scm:git:git://github.com/trinodb/trino-hive-jdbc.git</connection>
+        <developerConnection>scm:git:git://github.com/trinodb/trino-hive-jdbc.git</developerConnection>
+        <url>https://github.com/trinodb/trino-hive-jdbc</url>
         <tag>HEAD</tag>
     </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.targetJdk>1.7</project.build.targetJdk>
-        <shadeBase>io.prestosql.hive.jdbc.\$internal</shadeBase>
+        <shadeBase>io.trino.hive.jdbc.\$internal</shadeBase>
         <dep.slf4j.version>1.6.6</dep.slf4j.version>
         <dep.hadoop.version>0.20.2</dep.hadoop.version>
         <dep.hive.version>0.13.1</dep.hive.version>
